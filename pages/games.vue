@@ -49,12 +49,12 @@
 .tiles-row{
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 5px;
 }
 .tile{
-    width: 80px;
-    height: 80px;
-    background-color: aqua;
-    margin: 4px;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
 }
 </style>
