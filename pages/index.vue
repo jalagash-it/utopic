@@ -1,7 +1,7 @@
 <template>
-  <b-container fluid  class="wrap">
-    <Menu /> 
-    <Content/>
+  <b-container fluid class="wrap">
+    <Menu />
+    <Content />
   </b-container>
 </template>
 <style scoped>

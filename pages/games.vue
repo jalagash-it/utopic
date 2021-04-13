@@ -1,51 +1,65 @@
 <template>
-    <div class="tales-game">
-        <b-container class="game-controls">
-            <b-row>
-                <b-col cols="12" md="6" offset-md="3">
-                    <b-button block>start round</b-button>
-                </b-col>
-            </b-row>
-        </b-container>
-        <div class="game-area">
-            <div class="tiles-row">
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile opened"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-            </div>
-            <div class="tiles-row">
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile opened"></div>
-                <div class="tile"></div>
-            </div>
-            <div class="tiles-row">
-                <div class="tile opened"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-            </div>
-            <div class="tiles-row">
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-            </div>
-            <div class="tiles-row">
-                <div class="tile"></div>
-                <div class="tile"></div>
-                <div class="tile opened"></div>
-                <div class="tile"></div>
-                <div class="tile"></div>
-            </div>
-        </div>
+  <div class="tales-game">
+    <b-container class="game-controls">
+      <b-row>
+        <b-col cols="12" md="6" offset-md="3">
+          <b-button block>
+            start round
+          </b-button>
+        </b-col>
+      </b-row>
+    </b-container>
+    <div class="game-area">
+      <div class="tiles-row">
+        <div class="tile" />
+        <div class="tile" />
+        <div class="tile opened" />
+        <div class="tile" />
+        <div class="tile" />
+      </div>
+      <div class="tiles-row">
+        <div class="tile" />
+        <div class="tile" />
+        <div class="tile" />
+        <div class="tile opened" />
+        <div class="tile" />
+      </div>
+      <div class="tiles-row">
+        <div class="tile opened" />
+        <div class="tile" />
+        <div class="tile" />
+        <div class="tile" />
+        <div class="tile" />
+      </div>
+      <div class="tiles-row">
+        <div class="tile" />
+        <div class="tile" />
+        <div class="tile" />
+        <div class="tile" />
+        <div class="tile" />
+      </div>
+      <div class="tiles-row">
+        <div class="tile" />
+        <div class="tile" />
+        <div class="tile opened" />
+        <div class="tile" />
+        <div class="tile" />
+      </div>
     </div>
+  </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      rows: 5,
+      cols: 5
+    }
+  }
+}
+</script>
+
 <style scoped>
 .game-controls{
     margin-top: 10px;
